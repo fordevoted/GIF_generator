@@ -3,6 +3,8 @@ a simple gif generator, which can edit video and do some image enhancement and s
 
 ## Introduction
 After open a file, you can use `pin` button to record target video, after recording, click `complete` to enter edit mode, then you can do some image enhancement and effect. After editing, click `save` to save GIF. You can click `stop` & `play` to stop/play video at any time.  
+> if recorded frames are smaller than 24, it will be view as photo and only record first image * 24 times = 24 frames
+> you can change play speed(delay) in `Settings`  
 
 ## Feature
  * Nagative film
@@ -31,7 +33,7 @@ After open a file, you can use `pin` button to record target video, after record
     > paramater:  Update Duration(default:3)
  *  Add text:  add text on image
     > paramater: string(default:1 6 3 b r a c e s), font-size(default: 48), text-color(default: #cd8068), text-position(default: (250,200)),font (choose on listbox)
-
+ 
 
 ## Usage 
 download and install dependency package, and use python compiler to run `Main.py` 
