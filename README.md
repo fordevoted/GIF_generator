@@ -39,7 +39,9 @@ After open a file, you can use `pin` button to record target video, after record
 download and install dependency package, and use python compiler to run `Main.py` 
 
 ## License 
-NCU　CSIE 陳昱瑋
+MIT license<br>
+NCU(tw) CSIE undergraduate<br>
+YuWei, Chen
 
 ## Contact
 210509fssh@gmail.com
